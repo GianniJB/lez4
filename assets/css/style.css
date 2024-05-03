@@ -1,0 +1,43 @@
+header {
+    background-color: black;
+    text-align: center;
+}
+
+header img {
+    height: 50px;
+}
+
+.all_div {
+    text-align: center;
+    height: 500px;
+}
+
+#first_div {
+    width: 100%;
+    background-image: url(../images/banner.jpg);
+    text-align: center;
+}
+
+#first_div h1 {
+    color: #22a2c1;
+}
+
+#second_div {
+    text-align: center;
+}
+
+#second_div img {
+    border-radius: 200px;
+    width: 400px;
+}
+
+#special_s {
+    background-color: #e22d0e;
+    color: white;
+    text-align: center;
+}
+
+#last_div img {
+    width: 400px;
+}
+
