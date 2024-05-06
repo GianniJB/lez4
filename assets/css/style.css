@@ -1,43 +1,39 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.65em;
+  color: #393d41;
+  text-align: center;
+}
+
+h1 {
+  color: #25a2c3;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5em;
+  padding: 25px 0;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: white;
+  background-color: #f04c2f;
+  border-radius: 4px;
+  border-style: none;
+}
+
 header {
-    background-color: black;
-    text-align: center;
+  background-color: black;
+  /* text-align: center; */
 }
 
-header img {
-    height: 50px;
+header > img {
+  height: 50px;
+  padding: 1.3em 0;
 }
 
-.all_div {
-    text-align: center;
-    height: 500px;
+.first {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
 }
-
-#first_div {
-    width: 100%;
-    background-image: url(../images/banner.jpg);
-    text-align: center;
-}
-
-#first_div h1 {
-    color: #22a2c1;
-}
-
-#second_div {
-    text-align: center;
-}
-
-#second_div img {
-    border-radius: 200px;
-    width: 400px;
-}
-
-#special_s {
-    background-color: #e22d0e;
-    color: white;
-    text-align: center;
-}
-
-#last_div img {
-    width: 400px;
-}
-
